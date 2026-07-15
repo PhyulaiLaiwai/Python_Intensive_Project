@@ -1,0 +1,60 @@
+Tech4U Contact Manager
+
+╔══════════════════════════════╗
+║          START               ║
+╚══════════════════════════════╝
+            │
+            ▼
+╔══════════════════════════════╗
+║      SHOW MAIN MENU          ║
+╠══════════════════════════════╣
+║ 1. Add Contact               ║
+║ 2. View All Contacts         ║
+║ 3. Search Contact            ║
+║ 4. Delete Contact            ║
+║ 5. Exit Program              ║
+╚══════════════════════════════╝
+            │
+            ▼
+┌──────────────────────────────┐
+│   USER SELECTS OPTION (1-5)  │
+└──────────────────────────────┘
+            │
+            ├───1───▶ [ADD CONTACT]
+            │         ├── Enter Name
+            │         ├── Enter Phone
+            │         ├── Enter Email
+            │         └── Save to CSV
+            │
+            ├───2───▶ [VIEW CONTACTS]
+            │         └── Display All
+            │
+            ├───3───▶ [SEARCH CONTACT]
+            │         ├── Enter Name
+            │         └── Show Matches
+            │
+            ├───4───▶ [DELETE CONTACT]
+            │         ├── Enter Name
+            │         └── Remove from CSV
+            │
+            └───5───▶ [EXIT]
+                      └── End Program
+
+╔══════════════════════════════╗
+║  DATA STORAGE: CSV FILE      ║
+╠══════════════════════════════╣
+║ Name     │ Phone    │ Email  ║
+║──────────────────────────────║
+║ John Doe │ 555-1234 │ j@d.com║
+║ Jane Doe │ 555-5678 │ j@e.com║
+║ ...      │ ...      │ ...    ║
+╚══════════════════════════════╝
+
+╔══════════════════════════════╗
+║    CONTACT DISPLAY FORMAT    ║
+╠══════════════════════════════╣
+║ Name: John Doe               ║
+║ Phone: 555-1234              ║
+║ Email: j@d.com               ║
+║ --------------------         ║
+╚══════════════════════════════╝

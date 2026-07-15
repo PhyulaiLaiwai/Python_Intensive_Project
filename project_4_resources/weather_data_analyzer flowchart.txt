@@ -1,0 +1,71 @@
+╔══════════════════════════════╗
+║   WEATHER DATA ANALYZER      ║
+╚══════════════════════════════╝
+            │
+            ▼
+╔══════════════════════════════╗
+║      PROGRAM START           ║
+║  - Load weather.csv          ║
+╚══════════════════════════════╝
+            │
+            ▼
+┌──────────────────────────────┐
+│   READ WEATHER DATA FUNCTION  │
+├──────────────────────────────┤
+│ 1. Initialize empty dict      │
+│ 2. Try opening CSV file       │
+│    → If error: show warning   │
+│ 3. For each row:              │
+│    - Extract City & Temp      │
+│    - Validate temperature     │
+│    - Add to city's temp list  │
+└──────────────────────────────┘
+            │
+            ▼
+╔══════════════════════════════╗
+║  DATA PROCESSING CHECK       ║
+╠══════════════════════════════╣
+║ IF: Data loaded successfully ║
+║    → Continue to analysis    ║
+║ ELSE:                        ║
+║    → Show "No data" message  ║
+╚══════════════════════════════╝
+            │
+            ▼
+┌──────────────────────────────┐
+│  SHOW WEATHER SUMMARY        │
+├──────────────────────────────┤
+│ For each city:               │
+│  - Calculate average temp    │
+│  - Find max temp             │
+│  - Find min temp             │
+│  - Display formatted results │
+└──────────────────────────────┘
+            │
+            ▼
+╔══════════════════════════════╗
+║      PROGRAM END             ║
+╚══════════════════════════════╝
+
+
+╔════════════════════════════════════╗
+║          SAMPLE DATA STRUCTURE     ║
+╠════════════════════════════════════╣
+║ City       │ Date       │ Temp     ║
+║────────────┼────────────┼───────── ║
+║ Yangon     │ 2025-06-10 │ 32       ║
+║ Mandalay   │ 2025-06-10 │ 35       ║
+║ Naypyidaw  │ 2025-06-10 │ 30       ║
+║ Yangon     │ 2025-06-11 │ 33       ║
+║ ...        │ ...        │ ...      ║
+╚════════════════════════════════════╝
+
+
+╔══════════════════════════════╗
+║    SAMPLE OUTPUT             ║
+╠══════════════════════════════╣
+║ Yangon  :                    ║
+║   Average temperature: 22.5°C║
+║   Highest temperature: 25.0°C║
+║   Lowest temperature: 18.2°C ║
+╚══════════════════════════════╝

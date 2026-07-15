@@ -1,0 +1,49 @@
+Tech4U Budget Tracker
+
+╔══════════════════════════════╗
+║          START               ║
+╚══════════════════════════════╝
+            │
+            ▼
+╔══════════════════════════════╗
+║      SHOW MAIN MENU          ║
+╠══════════════════════════════╣
+║ 1. Add Income               ║
+║ 2. Add Expense              ║
+║ 3. View Financial Report    ║
+║ 4. Exit Program             ║
+╚══════════════════════════════╝
+            │
+            ▼
+┌──────────────────────────────┐
+│   USER SELECTS OPTION (1-4)  │
+└──────────────────────────────┘
+            │
+            ├───1───▶ [ADD INCOME]
+            │         ├── Select Category
+            │         ├── Enter Amount
+            │         └── Save to CSV
+            │
+            ├───2───▶ [ADD EXPENSE]
+            │         ├── Select Category
+            │         ├── Enter Amount
+            │         └── Save to CSV
+            │
+            ├───3───▶ [VIEW REPORT]
+            │         ├── Calculate Totals
+            │         ├── Show Income
+            │         ├── Show Expenses
+            │         └── Show Balance
+            │
+            └───4───▶ [EXIT]
+                      └── End Program
+
+╔══════════════════════════════╗
+║  DATA STORAGE: CSV FILE      ║
+╠══════════════════════════════╣
+║ Category │ Amount │ Type     ║
+║──────────────────────────────║
+║ Food     │ 50.00  │ Expense  ║
+║ Salary   │ 2000.00│ Income   ║
+║ ...      │ ...    │ ...      ║
+╚══════════════════════════════╝
